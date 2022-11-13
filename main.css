@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: white;
+}
+h1{
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+    padding-top: 10px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+.content{
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+img{
+    width: 250px;
+    height: 400px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+p{
+    text-align: center;
+    padding-top: 0 8px;
+}
+@media(max-width: 100px){
+    .content{
+        width: 45%;
+    }
+}
+@media(max-width:1000px){
+    .content{
+        width: 100%;
+    }
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: auto;
+    width: 10%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    padding: 8px;
+    background-color: white;
+    color:black;
+  }
+
+li a:hover {
+    background-color: #070707;
+    opacity: 0.5;
+    color: white;
+}
+hr{
+    width: 70%;
+    margin-top: 50px;
+}
+h2{
+    text-align: center;
+    font-size: 25px;
+}
+.abt{
+    height: 533px;
+    width: 800px;
+}
+.abt-text{
+   padding-top: 20px;
+   text-align: center;
+}
+.ftr{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: left;
+    margin: 50px 0;
+}
+.ftr-1{
+    width: 25%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: left;
+    border-radius: 20px;
+    padding-top: 10px;
+    
+}
+.ftr-2{
+    margin: 15px;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+h5{
+    text-align: left;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    align-self: center
+}
+.txt{
+    margin-left: 15px;
+    grid-area: content;
+    text-align: left;
+    align-self: center;
+}
+.pct{
+    margin-left: 15px;
+    width: 70px;
+    height: 70px;
+    float: left;
+}
+.hdr-1{
+    float: center;
+}
+h6{
+    font-size: 19px;
+}
+
+
